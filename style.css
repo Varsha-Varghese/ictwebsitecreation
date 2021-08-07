@@ -1,0 +1,103 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-size: cover;
+}
+img{
+    width: 40px;
+    height: 40px;
+    margin-left: 14px;
+    margin-top: 4px;
+}
+header{
+    background-color: black;
+    
+    
+}
+.headtag{
+    float:right;
+    margin-top: 12px;
+    margin-right: 55px;
+   
+    
+}
+.headtag a{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 6px;
+    margin-left: 8px;
+}
+.headtag a:hover{
+    color: black;
+    background-color: cyan;
+}
+.sidebar{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    padding: 100px;
+
+}
+.sidebar li{
+    list-style: square;
+    margin-bottom: 5px;
+}
+.login{
+    float: right;
+    border: 2px solid red;
+    background-color: beige;
+    height: 15em;
+    margin-top: 5%;
+    margin-right: 2%;
+    padding: 20px;
+}
+.login h2{
+    text-align: center;
+}
+.login input{
+    height: 1.5em;
+}
+.login #logbut{
+    height: 1.8em;
+    color: white;
+    background-color: dodgerblue;
+    width: 100%;
+    border: 1px solid dodgerblue;
+
+}
+.cont{
+    margin-top: 7%;
+    margin-left: 3%;
+}
+.pbox{
+    border: 3px solid white;
+    width: 22%;
+    float: left;
+    margin-left: 10px;
+    height: 17em;
+    padding: 5px;
+    background-color: #cccc;
+}
+.pbox h3{
+    text-align: center;
+}
+.pbox p{
+    line-height: 1.25em;
+    text-align:justify;
+}
+.pbox a{
+    text-decoration: none;
+    color: red;
+}
+footer{
+    color: white;
+    background-color: black;
+    height: 1.5em;
+    margin-top: 33%;
+}
+footer h3{
+    text-align: center;
+}
